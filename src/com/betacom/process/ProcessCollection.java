@@ -122,9 +122,7 @@ public class ProcessCollection {
 
 		for (String  it:map.keySet()) {
 			System.out.println("key:" + it + " valore :" + map.get(it));
-		}
-
-		
+		}	
 	}
 
 	private void mapTest() {
