@@ -15,8 +15,8 @@ public class Impiegati extends User{
 		super(nome, cognome, sesso);
 
 		this.salary = salary;
-		Integer idx = MySingleTone.getInstance().computeIndice();
-		System.out.println("Valore di idx da Impiegati:" + idx);
+//		Integer idx = MySingleTone.getInstance().computeIndice();
+//		System.out.println("Valore di idx da Impiegati:" + idx);
 		
 	}
 

@@ -21,6 +21,10 @@ public class ProcessReflection2 extends ReflectionManager{
 			
 			Object[] paramsMethod = {"test con metodo.."};	
 			executeMethod(myClass, "setDesc", paramsMethod);
+
+			Object[] paramsMethod2 = {9998};	
+			executeMethod(myClass, "setP1", paramsMethod2);
+
 			
 			Object[] paramsMethod1 = {};	
 			String msg = (String) executeMethod(myClass, "toString", paramsMethod1);
