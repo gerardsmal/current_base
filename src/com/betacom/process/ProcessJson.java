@@ -13,7 +13,7 @@ public class ProcessJson {
 		
 		Cliente p = new Cliente("Paolo", "Verdi", new DataNascita(1, 10, 1999));
 		
-		Gson gson = new Gson();
+		Gson gson = new Gson(); 
 		
 		String jsonString = gson.toJson(p);
 		

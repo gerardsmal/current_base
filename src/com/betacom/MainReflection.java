@@ -6,7 +6,7 @@ import com.betacom.process.ProcessReflection2;
 public class MainReflection {
 
 	public static void main(String[] args) {
-		int tipo = 1;
+		int tipo = 2;
 		
 		if (tipo == 0) {
 			if (new ProcessReflection().execute()) {

@@ -24,7 +24,7 @@ public class ProcessCollection {
 	private void executeList() {
 		System.out.println("List process");
 		/*
-		 * List create
+		 * List create 
 		 */
 		List<Impiegati> lI = new ArrayList<Impiegati>();
 		
