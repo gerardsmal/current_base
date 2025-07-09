@@ -1,3 +1,4 @@
+-- tipo
 -- int -> integer
 -- decimal -> decimal
 -- char -> string di lunghezza fissa con max. 255

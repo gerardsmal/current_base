@@ -1,4 +1,4 @@
--- creazione tabelle per il corso
+-- creazione tabelle per  postgres
 
 drop table employee;
 
